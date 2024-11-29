@@ -1,0 +1,284 @@
+[ {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Mode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Platform",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#adventure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#ao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#competitive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Mode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#cooperative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Mode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#default_skin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#dnd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasGenre" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#strategy"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasPlatform" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#pc"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#e10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#e10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#fortnite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasCharacter" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#default_skin"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasGenre" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#action"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasMode" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#multi_player"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasPlatform" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#playstation"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#t"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasCharacter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasGenre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasMode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Mode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasPlatform",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Platform"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#m",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#minecraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasCharacter" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#steve"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasGenre" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#adventure"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasMode" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#single_player"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasPlatform" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#pc"
+  }, {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#playstation"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#e10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#multi_player",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Mode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#nintendo_switch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Platform"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#overwatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasGenre" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#team_fighting"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasPlatform" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#nintendo_switch"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#pc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Platform"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#playstation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Platform"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#pubg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasGenre" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#action"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasMode" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#competitive"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasPlatform" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#pc"
+  }, {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#xbox"
+  } ],
+  "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#m"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#role_playing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#single_player",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Mode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#sports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#steve",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#strategy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#t",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#team_fighting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#xbox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/demid/ontologies/2024/10/lab-1#Platform"
+  } ]
+} ]
